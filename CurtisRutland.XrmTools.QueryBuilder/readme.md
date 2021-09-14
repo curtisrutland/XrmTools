@@ -1,5 +1,6 @@
 ﻿# XrmTools.QueryBuilder
-###### A fluent API to simplify creating QueryExpressions
+
+A fluent API to simplify creating QueryExpressions
 
 ## Dependencies
 
