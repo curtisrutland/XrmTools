@@ -109,5 +109,11 @@ namespace CurtisRutland.XrmTools.QueryBuilder
 
             return this;
         }
+
+        public LinkEntityBuilder SetEntityAlias(string alias)
+        {
+            _linkEntity.EntityAlias = alias;
+            return this;
+        }
     }
 }

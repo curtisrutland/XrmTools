@@ -84,7 +84,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Constants.cs" />
-    <Compile Include="QueryBuilder.cs" />
+    <Compile Include="XrmQueryBuilder.cs" />
     <Compile Include="FilterExpressionBuilder.cs" />
     <Compile Include="IQueryBuilder.cs" />
     <Compile Include="LinkEntityBuilder.cs" />
@@ -93,6 +93,7 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+    <None Include="readme.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

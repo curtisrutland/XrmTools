@@ -58,5 +58,12 @@ namespace CurtisRutland.XrmTools.Extensions
         public static DateTime? GetLocalDate(this Entity e, string attributeName) => e.GetDate(attributeName)?.ToLocalTime();
 
         public static string GetFormattedValue(this Entity e, string attributeName) => e.FormattedValues.ContainsKey(attributeName) ? e.FormattedValues[attributeName] : null;
+
+        public static T GetAliasedValue<T>(this Entity e, string alias, string attributeName)
+        {
+            var aliasedValue = e.GetAttributeValue<AliasedValue>($"{alias}.{attributeName}");
+            if (aliasedValue?.Value == null) return default;
+            return (T)aliasedValue.Value;
+        }
     }
 }

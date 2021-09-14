@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurtisRutland.XrmTools.Quer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurtisRutland.XrmTools.Extensions", "CurtisRutland.XrmTools.Extensions\CurtisRutland.XrmTools.Extensions.csproj", "{F5F48D03-C17E-4B1E-8680-5B3B421B1502}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurtisRutland.XrmTools.TestProject", "CurtisRutland.XrmTools.TestProject\CurtisRutland.XrmTools.TestProject.csproj", "{A67F087D-192A-4A17-8A4D-D66BBAB1C464}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F5F48D03-C17E-4B1E-8680-5B3B421B1502}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5F48D03-C17E-4B1E-8680-5B3B421B1502}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5F48D03-C17E-4B1E-8680-5B3B421B1502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A67F087D-192A-4A17-8A4D-D66BBAB1C464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A67F087D-192A-4A17-8A4D-D66BBAB1C464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A67F087D-192A-4A17-8A4D-D66BBAB1C464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A67F087D-192A-4A17-8A4D-D66BBAB1C464}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
